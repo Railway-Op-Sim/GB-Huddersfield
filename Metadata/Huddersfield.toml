@@ -1,0 +1,13 @@
+rly_file = "Huddersfield.rly"
+ttb_files = []
+img_files = [ "Huddersfield.bmp",]
+doc_files = [ "README.md",]
+release_date = "2022-02-15"
+version = "1.0.0"
+country_code = "GB"
+factual = true
+description = ""
+display_name = "Huddersfield"
+name = "Huddersfield"
+author = "Daniel Gill"
+contributors = []
