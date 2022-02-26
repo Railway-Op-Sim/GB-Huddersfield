@@ -1,0 +1,164 @@
+{
+    "startTime":"05:00",
+    "dataTemplates": [
+        {
+            "keyword":"FRGT",
+            "maxSpeed":96,
+            "mass":1000,
+            "maxBrake":20,
+            "power":2460
+        }
+    ],
+    "services": [
+        {
+            "ref":"6M50",
+            "description":"03:52 Doncaster Down Decoy Gbrf to Ashburys S.S.",
+            "dataTemplate":"FRGT",
+            "startSpeed":60,
+            "increment":1,
+            "events": [
+                "05:02;Snt;68-44 67-44",
+                "05:18;pas;Huddersfield",
+                "05:42;05:50;Marsden",
+                "06:13;pas;Stalybridge",
+                "06:15;Fer;57-6"
+            ]
+        },
+        {
+            "ref":"6R23",
+            "description":"21:31 Oxwellmains Lafarge Colas to Weaste",
+            "dataTemplate":"FRGT",
+            "startSpeed":60,
+            "increment":1,
+            "events": [
+                "05:23;Snt;49-36 48-36",
+                "05:39;pas;Huddersfield",
+                "06:01;06:13;Marsden",
+                "06:35;pas;Stalybridge",
+                "06:37;Fer;57-3"
+            ]
+        },
+        {
+            "ref":"6R24",
+            "description":"04:28 Trafford Park F.L.T. to Immingham A2 And B4 (Flhh)",
+            "dataTemplate":"FRGT",
+            "startSpeed":60,
+            "increment":1,
+            "events": [
+                "05:08;Snt;57-5 58-5",
+                "05:40;pas;Huddersfield",
+                "06:00;Fer;68-43"
+            ]
+        },
+        {
+            "ref":"6E36",
+            "description":"01:55 Liverpool Biomass Tml Gbf to Drax Aes (Gbrf)",
+            "dataTemplate":"FRGT",
+            "startSpeed":60,
+            "increment":1,
+            "events": [
+                "05:19;Snt;57-5 58-5",
+                "05:58;pas;Huddersfield",
+                "06:23;Fer;68-43"
+            ]
+        },
+        {
+            "ref":"6R65",
+            "description":"05:55 Stocksmoor to Wakefield Kirkgate S&Te",
+            "dataTemplate":"FRGT",
+            "startSpeed":60,
+            "increment":1,
+            "events": [
+                "06:04;Snt;35-28 35-27",
+                "06:06;pas;Huddersfield",
+                "06:27;Fer;68-43"
+            ]
+        },
+        {
+            "ref":"6Z23",
+            "description":"04:33 Wigan L.I.P. to Wigan L.I.P.",
+            "dataTemplate":"FRGT",
+            "startSpeed":60,
+            "increment":1,
+            "events": [
+                "09:31;Snt;57-2 58-2",
+                "09:33;09:59;Stalybridge",
+                "10:21;Huddersfield",
+                "10:22;cdt",
+                "10:29;Huddersfield",
+                "10:40;10:50;Marsden",
+                "11:06;Fer;57-6"
+            ]
+        },
+        {
+            "ref":"6E42",
+            "description":"10:15 Bredbury R.T.S. (Flhh) to York Yard South (Fhh)",
+            "dataTemplate":"FRGT",
+            "startSpeed":60,
+            "increment":1,
+            "events": [
+                "11:19;Snt;57-2 58-2",
+                "11:21;11:27;Stalybridge",
+                "11:55;pas;Huddersfield",
+                "12:07;Fer;68-43"
+            ]
+        },
+        {
+            "ref":"6Z24",
+            "description":"11:16 Grimsby Town to Hull",
+            "dataTemplate":"FRGT",
+            "startSpeed":60,
+            "increment":1,
+            "events": [
+                "13:30;Snt;68-44 67-44",
+                "13:43;Huddersfield",
+                "13:44;cdt",
+                "13:53;Huddersfield",
+                "14:06;Fer;68-43"
+            ]
+        },
+        {
+            "ref":"6I32",
+            "description":"13:15 Hunslet Yard (Flhh) to Crewe Bas Hall S.S.M.",
+            "dataTemplate":"FRGT",
+            "startSpeed":60,
+            "increment":1,
+            "events": [
+                "13:46;Snt;68-44 67-44",
+                "14:00;pas;Huddersfield",
+                "14:14;14:36;Marsden",
+                "14:53;pas;Stalybridge",
+                "14:55;Fer;57-6"
+            ]
+        },
+        {
+            "ref":"2W01",
+            "description":"%t23:00% Bradford Interchange to Huddersfield",
+            "dataTemplate":"C150/1_2",
+            "startSpeed":60,
+            "increment":4,
+            "events": [
+                "23:31;Snt;93-20 92-20",
+                "23:38;Huddersfield",
+                "23:39;cdt",
+                "23:40;Fns;2W00"
+            ],
+            "times": [
+                {"time":"06:35","description":"06:35 Leeds to Huddersfield"},"08:35","10:35","12:35","14:35","16:35","18:35","20:35"
+            ]
+        },
+        {
+            "ref":"2W00",
+            "description":"%t00:00% Huddersfield to Bradford Interchange",
+            "increment":4,
+            "events": [
+                "23:40;Sns;2W01",
+                "00:00;Huddersfield",
+                "00:04;Fer;93-20"
+            ],
+            "times": [
+                "06:35","08:35","10:35","12:35","14:35","16:35","18:35","20:35"
+            ]
+        }
+    ]
+}
