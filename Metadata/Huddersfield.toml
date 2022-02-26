@@ -1,5 +1,5 @@
 rly_file = "Huddersfield.rly"
-ttb_files = []
+ttb_files = [ "Huddersfield.ttb",]
 img_files = [ "Huddersfield.bmp",]
 doc_files = [ "README.md",]
 release_date = "2022-02-15"
