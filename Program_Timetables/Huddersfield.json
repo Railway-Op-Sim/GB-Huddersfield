@@ -523,7 +523,7 @@
             ],
             "times": [
                 {"time":"07:06","ref":"2W40","description":"Wigan Wallgate to Stalybridge"},
-                {"time":"08:07","ref":"2W42","description":"Southport to Stalybridge"},
+                {"time":"08:06","ref":"2W42","description":"Southport to Stalybridge"},
                 {"time":"09:06","ref":"2W44","description":"Southport to Stalybridge"},
                 {"time":"10:06","ref":"2W46","description":"Southport to Stalybridge"},
                 {"time":"11:06","ref":"2W48","description":"Southport to Stalybridge"},
