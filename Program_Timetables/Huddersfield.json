@@ -295,7 +295,6 @@
                 {"time":"20:08","ref":"1P84","description":"Redcar Central to Manchester Airport"},
                 {"time":"20:36","ref":"9M38","description":"Newcastle to Liverpool Lime Street"},
                 {"time":"21:08","ref":"1P86","description":"Redcar Central to Manchester Victoria"},
-                {"time":"21:27","ref":"1K34","description":"Hull to Manchester Piccadilly"},
                 {"time":"21:51","ref":"9M40","description":"Newcastle to Liverpool Lime Street"}
             ]
         },
@@ -315,6 +314,375 @@
                 "06:49;06:49;Mossley",
                 "06:53;06:54;Stalybridge",
                 "06:55;Fer;57-3"
+            ]
+        },
+        {
+            "ref":"1K06",
+            "description":"Hull to Manchester Piccadilly",
+            "dataTemplate":"C185_3",
+            "increment":2,
+            "startSpeed":60,
+            "events": [
+                "23:50;Snt;49-36 48-36",
+                "23:59;00:00;Huddersfield",
+                [{"1K06|1K08|1K24|1K26|1K28|1K30|1K32|1K34":"00:07;00:07;Slaithwaite"}],
+                [{"1K06|1K08|1K24|1K26|1K28|1K30|1K32|1K34":"00:12;00:13;Marsden"}],
+                [{"1K06|1K08|1K24|1K26|1K28|1K30|1K32|1K34":"00:20;00:20;Greenfield"}],
+                [{"1K06|1K08|1K24|1K26|1K28|1K30|1K32|1K34":"00:24;00:24;Mossley"}],
+                [{"1K06|1K08|1K24|1K26|1K28|1K30|1K32|1K34":"00:28;00:28;Stalybridge"},{"....":"00:18;00:18;Stalybridge"}],
+                [{"1K06|1K08|1K24|1K26|1K28|1K30|1K32|1K34":"00:29;Fer;57-6"},{"....":"00:19;Fer;57-6"}]
+            ],
+            "times": [
+                {"time":"07:25","ref":"1K06","description":"Hull to Manchester Piccadilly"},
+                {"time":"08:25","ref":"1K08","description":"Hull to Manchester Piccadilly"},
+                {"time":"09:25","ref":"1K10","description":"Hull to Manchester Piccadilly"},
+                {"time":"10:25","ref":"1K12","description":"Hull to Manchester Piccadilly"},
+                {"time":"11:25","ref":"1K14","description":"Hull to Manchester Piccadilly"},
+                {"time":"12:25","ref":"1K16","description":"Hull to Manchester Piccadilly"},
+                {"time":"13:25","ref":"1K18","description":"Hull to Manchester Piccadilly"},
+                {"time":"14:25","ref":"1K20","description":"Hull to Manchester Piccadilly"},
+                {"time":"15:25","ref":"1K22","description":"Hull to Manchester Piccadilly"},
+                {"time":"16:25","ref":"1K24","description":"Hull to Manchester Piccadilly"},
+                {"time":"17:25","ref":"1K26","description":"Hull to Manchester Piccadilly"},
+                {"time":"18:25","ref":"1K28","description":"Hull to Manchester Piccadilly"},
+                {"time":"19:25","ref":"1K30","description":"Hull to Manchester Piccadilly"},
+                {"time":"20:25","ref":"1K32","description":"Hull to Manchester Piccadilly"},
+                {"time":"21:27","ref":"1K34","description":"Hull to Manchester Piccadilly"},
+                {"time":"22:25","ref":"1K36","description":"Hull to Manchester Piccadilly"},
+                {"time":"23:29","ref":"1K38","description":"Hull to Manchester Piccadilly"}
+            ]
+        },
+        {
+            "ref":"1K05",
+            "description":"Manchester Piccadilly to Hull",
+            "dataTemplate":"C185_3",
+            "increment":2,
+            "startSpeed":60,
+            "events": [
+                [{"1K05|1K07|1K09|1K11|1K27|1K29|1K31|1K33|1K35|1K37":"23:28;Snt;57-5 58-5"},{"....":"23:46;Snt;57-5 58-5"}],
+                [{"1K05|1K07|1K09|1K11|1K27|1K29|1K31|1K33|1K35|1K37":"23:29;23:32;Stalybridge"},{"....":"23:48;23:48;Stalybridge"}],
+                [{"1K07|1K09|1K11|1K27|1K29|1K31|1K33|1K35|1K37":"23:36;23:37;Mossley"}],
+                [{"1K07|1K09|1K11|1K27|1K29|1K31|1K33|1K35|1K37":"23:41;23:41;Greenfield"}],
+                [{"1K05|1K07|1K09|1K11|1K27|1K29|1K31|1K33|1K35|1K37":"23:49;23:49;Marsden"}],
+                [{"1K05|1K07|1K09|1K11|1K27|1K29|1K31|1K33|1K35|1K37":"23:53;23:53;Slaithwaite"}],
+                [{"1K05|1K07|1K09|1K11|1K27|1K29|1K31|1K33|1K35|1K37":"23:59;00:00;Huddersfield"},{"....":"23:56;00:00;Huddersfield"}],
+                "00:08;Fer;49-35"
+            ],
+            "times": [
+                {"time":"06:14","ref":"1K05"},
+                {"time":"07:12","ref":"1K07"},
+                {"time":"08:12","ref":"1K09"},
+                {"time":"09:12","ref":"1K11"},
+                {"time":"10:12","ref":"1K13"},
+                {"time":"11:12","ref":"1K15"},
+                {"time":"12:12","ref":"1K17"},
+                {"time":"13:12","ref":"1K19"},
+                {"time":"14:12","ref":"1K21"},
+                {"time":"15:09","ref":"1K23"},
+                {"time":"16:12","ref":"1K25"},
+                {"time":"17:12","ref":"1K27"},
+                {"time":"18:12","ref":"1K29"},
+                {"time":"19:12","ref":"1K31"},
+                {"time":"20:12","ref":"1K33"},
+                {"time":"21:12","ref":"1K35"},
+                {"time":"22:13","ref":"1K37"}
+            ]
+        },
+        {
+            "ref":"5J49",
+            "description":"Ardwick T.M.D to Huddersfield",
+            "dataTemplate":"C185_3",
+            "increment":1,
+            "startSpeed":35,
+            "events": [
+                "05:38;Snt;93-20 92-20",
+                "05:43;Huddersfield",
+                "05:43;cdt",
+                "05:44;Fns;2J49"
+            ]
+        },
+        {
+            "ref":"2J49",
+            "description":"Huddersfield to Leeds",
+            "increment":2,
+            "events": [
+                [{"2J49":"`05:44;Sns;5J49"},{"2J51":"`06:40;Sfs;2E61"},{"....":"23:34;Sns;2J48"}],
+                "00:00;Huddersfield",
+                "00:03;00:04;Deighton",
+                "00:08;00:08;Mirfield",
+                "00:11;00:12;Ravensthorpe",
+                "00:15;00:15;Dewsbury",
+                "00:16;Fer;49-35"
+            ],
+            "times": [
+                "05:54","06:49","07:49","08:49","09:49","10:49","11:49","12:49","13:49","14:49","15:49","16:49","17:49","18:49","19:49","20:49","21:49","22:49"
+            ]
+        },
+        {
+            "ref":"2J52",
+            "description":"Leeds to Huddersfield",
+            "dataTemplate":"C185_3",
+            "increment":2,
+            "startSpeed":60,
+            "events": [
+                "23:13;Snt;49-36 48-36",
+                "23:14;23:15;Dewsbury",
+                "23:17;23:18;Ravensthorpe",
+                "23:21;23:22;Mirfield",
+                "23:28;23:28;Deighton",
+                "23:33;Huddersfield",
+                "23:33;cdt",
+                "23:34;Fns;2J53"
+            ],
+            "times": [
+                "07:49","08:49","09:49","10:49","11:49","12:49","13:49","14:49","15:49","16:49","17:49","18:49","19:49","20:49","21:49","22:49"
+            ]
+        },
+        {
+            "ref":"2E61",
+            "description":"Manchester Piccadilly to Huddersfield",
+            "dataTemplate":"C185_3",
+            "increment":1,
+            "startSpeed":60,
+            "events": [
+                "06:10;Snt;57-5 58-5",
+                "06:11;06:12;Stalybridge",
+                "06:16;06:17;Mossley",
+                "06:21;06:21;Greenfield",
+                "06:29;06:29;Marsden",
+                "06:32;06:33;Slaithwaite",
+                "06:39;Huddersfield",
+                "06:40;fsp;2J51",
+                "06:40;cdt",
+                "06:41;Fns;2M60"
+            ]
+        },
+        {
+            "ref":"5M58",
+            "description":"Crofton Depot to Huddersfield",
+            "dataTemplate":"C185_3",
+            "startSpeed":60,
+            "increment":1,
+            "events": [
+                "05:28;Snt;68-44 67-44",
+                "05:46;Huddersfield",
+                "05:47;Fns;2M58"
+            ]
+        },
+        {
+            "ref":"2M58",
+            "description":"Huddersfield to Manchester Piccadilly",
+            "increment":2,
+            "events": [
+                [{"2M58":"`05:47;Sns;5M58"},{"2M60":"`06:41;Sns;2E61"},{"....":"23:48;Sns;2E59"}],
+                "00:00;Huddersfield",
+                "00:06;00:07;Slaithwaite",
+                "00:12;00:12;Marsden",
+                "00:20;00:21;Greenfield",
+                "00:24;00:25;Mossley",
+                "00:29;00:29;Stalybridge",
+                "00:30;Fer;57-6"
+            ],
+            "times": [
+                "05:54","06:53","07:53","08:55","09:53","10:53","11:53","12:53","13:55","14:53","15:53","16:53","17:55","18:53"
+            ]
+        },
+        {
+            "ref":"2E63",
+            "description":"Manchester Piccadilly to Huddersfield",
+            "increment":2,
+            "dataTemplate":"C185_3",
+            "startSpeed":60,
+            "events": [
+                "23:18;Snt;57-5 58-5",
+                "23:20;23:20;Stalybridge",
+                "23:24;23:25;Mossley",
+                "23:28;23:29;Greenfield",
+                "23:36;23:37;Marsden",
+                "23:40;23:41;Slaithwaite",
+                "23:47;Huddersfield",
+                "23:47;cdt",
+                "23:48;Fns;2M62"
+            ],
+            "times": [
+                "07:53","08:55","09:53","10:53","11:53","12:53","13:55","14:53","15:53","16:53","17:55","18:53"
+            ]
+        },
+        {
+            "ref":"2W40",
+            "description":"TO STALYBRIDGE",
+            "increment":2,
+            "dataTemplate":"C150/1_2",
+            "startSpeed":60,
+            "becomes":"2W03",
+            "events": [
+                "23:59;Snt;57-2 58-2",
+                "00:00;Stalybridge",
+                "00:00;cdt",
+                "00:00;Fns;2W03"
+            ],
+            "times": [
+                {"time":"07:06","ref":"2W40","description":"Wigan Wallgate to Stalybridge"},
+                {"time":"08:07","ref":"2W42","description":"Southport to Stalybridge"},
+                {"time":"09:06","ref":"2W44","description":"Southport to Stalybridge"},
+                {"time":"10:06","ref":"2W46","description":"Southport to Stalybridge"},
+                {"time":"11:06","ref":"2W48","description":"Southport to Stalybridge"},
+                {"time":"12:06","ref":"2W50","description":"Southport to Stalybridge"},
+                {"time":"13:06","ref":"2W52","description":"Southport to Stalybridge"},
+                {"time":"14:06","ref":"2W54","description":"Southport to Stalybridge"},
+                {"time":"15:06","ref":"2W56","description":"Southport to Stalybridge"},
+                {"time":"16:06","ref":"2W58","description":"Southport to Stalybridge"},
+                {"time":"17:06","ref":"2W60","description":"Southport to Stalybridge"},
+                {"time":"18:06","ref":"2W62","description":"Southport to Stalybridge"},
+                {"time":"19:07","ref":"2W64","description":"Southport to Stalybridge"},
+                {"time":"20:06","ref":"2W66","description":"Southport to Stalybridge"},
+                {"time":"21:07","ref":"2W68","description":"Wigan North Western to Stalybridge"},
+                {"time":"22:22","ref":"2W70","description":"Wigan Wallgate to Stalybridge"},
+                {"time":"22:44","ref":"2W71","description":"Southport to Stalybridge"}
+            ]
+        },
+        {
+            "ref":"2W03",
+            "description":"FROM STALYBRIDGE",
+            "increment":2,
+            "from":"2W40",
+            "events": [
+                "00:00;Sns;2W40",
+                "00:00;Stalybridge",
+                "00:01;Fer;57-3"
+            ],
+            "times": [
+                {"time":"07:32","ref":"2W03","description":"Stalybridge to Southport"},
+                {"time":"08:30","ref":"2W05","description":"Stalybridge to Southport"},
+                {"time":"09:30","ref":"2W07","description":"Stalybridge to Southport"},
+                {"time":"10:30","ref":"2W09","description":"Stalybridge to Southport"},
+                {"time":"11:30","ref":"2W11","description":"Stalybridge to Southport"},
+                {"time":"12:30","ref":"2W13","description":"Stalybridge to Southport"},
+                {"time":"13:30","ref":"2W15","description":"Stalybridge to Southport"},
+                {"time":"14:30","ref":"2W17","description":"Stalybridge to Southport"},
+                {"time":"15:30","ref":"2W19","description":"Stalybridge to Southport"},
+                {"time":"16:29","ref":"2W21","description":"Stalybridge to Southport"},
+                {"time":"17:31","ref":"2W23","description":"Stalybridge to Southport"},
+                {"time":"18:31","ref":"2W25","description":"Stalybridge to Southport"},
+                {"time":"19:31","ref":"2W27","description":"Stalybridge to Wigan Wallgate"},
+                {"time":"20:31","ref":"2W29","description":"Stalybridge to Manchester Victoria"},
+                {"time":"21:29","ref":"2W31","description":"Stalybridge to Southport"},
+                {"time":"22:31","ref":"2W33","description":"Stalybridge to Wigan Wallgate"},
+                {"time":"22:48","ref":"2W35","description":"Stalybridge to Manchester Victoria"}
+            ]
+        },
+        {
+            "ref":"2I01",
+            "description":"Wigan North Western to Leeds",
+            "increment":2,
+            "dataTemplate":"C150/1_2",
+            "startSpeed":60,
+            "events": [
+                "23:57;Snt;97-19 97-20",
+                "23:59;00:00;Mirfield",
+                "00:03;00:03;Ravensthorpe",
+                "00:06;00:07;Dewsbury",
+                "00:09;Fer;49-35"
+            ],
+            "times": [
+                {"time":"06:39","ref":"2T40","description":"Brighouse to Leeds"},
+                {"time":"07:39","ref":"2I01","description":"Wigan North Western to Leeds"},
+                {"time":"08:39","ref":"2I03","description":"Wigan North Western to Leeds"},
+                {"time":"09:39","ref":"2I05","description":"Wigan North Western to Leeds"},
+                {"time":"10:39","ref":"2I07","description":"Wigan North Western to Leeds"},
+                {"time":"11:38","ref":"2I09","description":"Wigan North Western to Leeds"},
+                {"time":"12:38","ref":"2I11","description":"Wigan North Western to Leeds"},
+                {"time":"13:39","ref":"2I13","description":"Wigan North Western to Leeds"},
+                {"time":"14:39","ref":"2I15","description":"Wigan North Western to Leeds"},
+                {"time":"15:38","ref":"2I17","description":"Wigan North Western to Leeds"},
+                {"time":"16:38","ref":"2I19","description":"Wigan North Western to Leeds"},
+                {"time":"17:39","ref":"2I01","description":"Wigan North Western to Leeds"},
+                {"time":"18:38","ref":"2I93","description":"Wigan North Western to Leeds"},
+                {"time":"19:39","ref":"2I05","description":"Wigan North Western to Leeds"},
+                {"time":"20:39","ref":"2I07","description":"Wigan North Western to Leeds"},
+                {"time":"21:39","ref":"2I09","description":"Wigan North Western to Leeds"}
+            ]
+        },
+        {
+            "ref":"2R82",
+            "description":"Leeds to Wigan North Western",
+            "increment":2,
+            "dataTemplate":"C150/1_2",
+            "startSpeed":60,
+            "events": [
+                "23:52;Snt;49-36 48-36",
+                "23:53;23:54;Dewsbury",
+                "00:00;00:00;Mirfield",
+                "00:05;Fer;96-19"
+            ],
+            "times": [
+                {"time":"06:40","ref":"2R82","description":"Leeds to Wigan North Western"},
+                {"time":"07:40","ref":"2R84","description":"Leeds to Wigan North Western"},
+                {"time":"08:41","ref":"2R86","description":"Leeds to Wigan North Western"},
+                {"time":"09:40","ref":"2R88","description":"Leeds to Wigan North Western"},
+                {"time":"10:42","ref":"2R90","description":"Leeds to Wigan North Western"},
+                {"time":"11:42","ref":"2R92","description":"Leeds to Wigan North Western"},
+                {"time":"12:41","ref":"2R94","description":"Leeds to Wigan North Western"},
+                {"time":"13:42","ref":"2R96","description":"Leeds to Wigan North Western"},
+                {"time":"14:42","ref":"2R98","description":"Leeds to Wigan North Western"},
+                {"time":"15:42","ref":"2R80","description":"Leeds to Wigan North Western"},
+                {"time":"16:42","ref":"2R82","description":"Leeds to Wigan North Western"},
+                {"time":"17:43","ref":"2R84","description":"Leeds to Wigan North Western"},
+                {"time":"18:40","ref":"2R86","description":"Leeds to Wigan North Western"},
+                {"time":"19:41","ref":"2R88","description":"Leeds to Wigan North Western"},
+                {"time":"20:42","ref":"2R90","description":"Leeds to Wigan North Western"},
+                {"time":"21:42","ref":"2I33","description":"Leeds to Manchester Victoria"}
+            ]
+        },
+        {
+            "ref":"5A59",
+            "description":"Crofton Depot to Bradford Interchange",
+            "dataTemplate":"C180_5",
+            "increment":1,
+            "startSpeed":60,
+            "events": [
+                "23:46;Snt;68-44 67-44",
+                "23:58;Fer;96-19"
+            ],
+            "times": [
+                {"time":"05:32","description":"Crofton Depot to Bradford Interchange","ref":"5A59"},
+                {"time":"06:19","description":"Crofton Depot to Bradford Interchange","ref":"5A70"}
+            ]
+        },
+        {
+            "ref":"1D71",
+            "description":"London Kings Cross to Bradford Interchange",
+            "dataTemplate":"C180_5",
+            "increment":1,
+            "startSpeed":60,
+            "events": [
+                "23:42;Snt;68-44 67-44",
+                "23:49;23:51;Mirfield",
+                "23:56;Fer;96-19"
+            ],
+            "times": [
+                {"time":"13:36","ref":"1D71","description":"London Kings Cross to Bradford Interchange"},
+                {"time":"17:35","ref":"1D73","description":"London Kings Cross to Bradford Interchange"},
+                {"time":"18:54","ref":"1D81","description":"London Kings Cross to Bradford Interchange"},
+                {"time":"22:08","ref":"1D95","description":"London Kings Cross to Bradford Interchange"}
+            ]
+        },
+        {
+            "ref":"1A59",
+            "description":"Bradford Interchange to London Kings Cross",
+            "dataTemplate":"C180_5",
+            "startSpeed":60,
+            "increment":1,
+            "events": [
+                "00:03;Snt;97-19 97-20",
+                "00:05;00:06;Mirfield",
+                "00:13;Fer;68-43"
+            ],
+            "times": [
+                {"time":"07:20","ref":"1A59","description":"Bradford Interchange to London Kings Cross"},
+                {"time":"08:24","ref":"1A70","description":"Bradford Interchange to London Kings Cross"},
+                {"time":"10:47","ref":"1A63","description":"Bradford Interchange to London Kings Cross"},
+                {"time":"15:17","ref":"1A67","description":"Bradford Interchange to London Kings Cross"}
             ]
         }
     ]
