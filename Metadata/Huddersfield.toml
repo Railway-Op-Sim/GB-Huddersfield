@@ -1,7 +1,7 @@
 rly_file = "Huddersfield.rly"
-ttb_files = [ "Huddersfield-0500.ttb","Huddersfield-0600.ttb","Huddersfield-0700.ttb","Huddersfield-0800.ttb","Huddersfield-0900.ttb"]
+ttb_files = [ "Huddersfield-0500.ttb", "Huddersfield-0600.ttb", "Huddersfield-0700.ttb", "Huddersfield-0800.ttb", "Huddersfield-0900.ttb",]
 img_files = [ "Huddersfield.bmp",]
-doc_files = [ "README.md","README.pdf"]
+doc_files = [ "README.md", "README.pdf",]
 release_date = "2022-03-26"
 version = "1.0.0"
 country_code = "GB"
@@ -10,3 +10,4 @@ description = "This project covers Huddersfield, as well as the Huddersfield lin
 display_name = "Huddersfield"
 name = "Huddersfield"
 author = "Daniel Gill"
+contributors = []
